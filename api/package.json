@@ -9,6 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon app.js",
+    "start": "nodemon app.js",
     "watch": "node --watch app.js",
     "db:create": "node migrations/01.create-tables.js",
     "db:seed": "node migrations/02.seed-tables.js",
